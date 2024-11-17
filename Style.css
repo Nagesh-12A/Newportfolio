@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+h5{
+    color: white;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+h3{
+    font-size: 60px;
+    color: orangered;
+    font-family: "Playfair Display", serif;
+}
+h4{
+    font-size: 30px;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+h2{
+    font-size:60px;
+    color: tomato;
+    line-height: 98px;
+    font-family: "Playfair Display", serif;
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+button.btn{
+    border: 2px solid orangered;
+    width: 100px;
+    color: #ffffff;
+    font-weight: 700;
+}
+button.btn:hover{
+    color: blue;
+}
+section.as{
+background-color: #282828;
+}
+section.as1{
+    background-color: #333333;
+}
+a.btn{
+    border: 2px solid orangered;
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px; 
+    color: aliceblue;
+}
+a.btn:hover{
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+section.develo{
+    background-color: #232323;
+   padding-top: 50px;
+}
+section.develop{
+    background-color: #282828;
+}
+section.develop1{
+    background-color:#333333;
+}
+
+.col-md-12.mt-5,.col-6.col-sm-3.mt-5{
+    padding-bottom: 60px;
+} 
+section.contact{
+    background-color: #232323;
+}
+
+input#exampleFormControlInput1 {
+    border: solid orange 2px;
+    padding: 14px;
+    color: #454545;
+}
+
+textarea#exampleFormControlTextarea1 {
+    border: solid 2px orange;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+}
+section.project{
+    background-color: #454545;
+}
+
+nav.navbar.navbar-expand-lg {
+    background-color: #282828;
+}
+
+a.nav-link.me-5.fs-6{
+    color: white;
+}
+
+a.nav-link.me-5.fs-6:hover{
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+button.btn.btn-outline-secondary{
+    color: white;
+    width: 100px;
+    border: solid 2px orangered;
+
+}
+
+button.btn.btn-outline-secondary:hover{
+    color: blue ;
+    background-color: white;
+    border: none;
+    transition: 1.5s
+      
+    ;
+}
+
+button.media{
+    width: 260px;
+    padding: 20px;
+    background: none;
+    border: solid 2px orangered;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+button.media:hover{
+    background: blue;
+    color: white;
+    border: none;
+    transition: 1.5s;
+}
